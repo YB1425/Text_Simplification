@@ -1,3 +1,11 @@
+---
+license: apache-2.0
+emoji: 🚀
+colorFrom: red
+title: Text Simplification with Hugging Face and Gradio
+sdk: gradio
+---
+
 # Text Simplification with Hugging Face and Gradio
 
 ## Overview
@@ -26,18 +34,18 @@ The project includes the following files:
 2. **Text Simplification Function**: The `text_simplifying` function processes the input text and a maximum length parameter through the model to generate simplified text.
 3. **Gradio Interface**: Provides an interactive GUI where users can input text and adjust the maximum length for the output.
 
-## Running the Code
+## Running the Application
 
-### From the Hugging Face Space
+### From Hugging Face Space
 
 1. **Access the Application**: Go to [Text Simplification on Hugging Face](https://huggingface.co/spaces/YB1425/Text_Simplification).
 2. **Enter Text**: In the "Enter complex text here..." field, input the text you want to simplify.
 3. **Set Maximum Length**: Use the slider to select the maximum length for the simplified text.
 4. **View Output**: The simplified text will appear in the output area below.
 
-### Video Description of ProjectGo to [Link](https://youtu.be/9kUUXbstXG0).
+### Locally (Optional)
 
-### From PyCharm
+If you prefer to run the application locally:
 
 1. **Clone the Repository**:
    ```bash
