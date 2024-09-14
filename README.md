@@ -35,6 +35,8 @@ The project includes the following files:
 3. **Set Maximum Length**: Use the slider to select the maximum length for the simplified text.
 4. **View Output**: The simplified text will appear in the output area below.
 
+### Video Description of ProjectGo to [Link](https://youtu.be/9kUUXbstXG0).
+
 ### From PyCharm
 
 1. **Clone the Repository**:
