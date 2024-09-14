@@ -6,7 +6,7 @@ simplifier = pipeline("text2text-generation", model="t5-base")
 
 
 def text_simplifying(text, max_len):
-    simplified = simplifier(f"simplified: {text}", max_length=max_len, min_length=30, do_sample=False)
+    simplified = simplifier(f"simplify: {text}", max_length=max_len, min_length=30, do_sample=False)
     return simplified[0]['generated_text']
 
 interface = gr.Interface(
