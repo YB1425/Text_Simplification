@@ -26,6 +26,9 @@ The project includes the following files:
 2. **Text Simplification Function**: The `text_simplifying` function processes the input text and a maximum length parameter through the model to generate simplified text.
 3. **Gradio Interface**: Provides an interactive GUI where users can input text and adjust the maximum length for the output.
 
+## Video Explaining the project
+https://youtu.be/9kUUXbstXG0?si=ljLoz7yBU_Zr4eRQ
+
 ## Running the Code
 
 ### From the Hugging Face Space
