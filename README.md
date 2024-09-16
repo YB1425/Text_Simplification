@@ -19,8 +19,8 @@ This project was made to assist people who are weak in English or those who have
 The project includes the following files:
 
 - `app.py`: The main Python script that defines the Gradio interface and integrates the Hugging Face text-to-text pipeline for text simplification.
-- `1_simple_pipeline_notebook.ipynb`: Demonstrates how the Hugging Face text-to-text pipeline works without Gradio.
-- `2_gradio_example_notebook.ipynb`: Showcases various Gradio components with hardcoded data.
+- `pipeline_notebook.ipynb`: Demonstrates how the Hugging Face text-to-text pipeline works without Gradio.
+- `gradionotebook.ipynb`: Showcases various Gradio components with hardcoded data.
 
 ## Features
 
