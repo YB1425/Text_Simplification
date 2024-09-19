@@ -19,8 +19,8 @@ This project was made to assist people who are weak in English or those who have
 The project includes the following files:
 
 - `app.py`: The main Python script that defines the Gradio interface and integrates the Hugging Face text-to-text pipeline for text simplification.
-- `pipeline_notebook.ipynb`: Demonstrates how the Hugging Face text-to-text pipeline works without Gradio.
-- `gradionotebook.ipynb`: Showcases various Gradio components with hardcoded data.
+- `1_simple_pipeline_notebook.ipynb`: Demonstrates how the Hugging Face text-to-text pipeline works without Gradio.
+- `2_gradio_example_notebook.ipynb`: Showcases various Gradio components with hardcoded data.
 
 ## Features
 
@@ -34,18 +34,19 @@ The project includes the following files:
 2. **Text Simplification Function**: The `text_simplifying` function processes the input text and a maximum length parameter through the model to generate simplified text.
 3. **Gradio Interface**: Provides an interactive GUI where users can input text and adjust the maximum length for the output.
 
-## Running the Application
+## Video Explaining the project
+https://youtu.be/9kUUXbstXG0?si=ljLoz7yBU_Zr4eRQ
 
-### From Hugging Face Space
+## Running the Code
+
+### From the Hugging Face Space
 
 1. **Access the Application**: Go to [Text Simplification on Hugging Face](https://huggingface.co/spaces/YB1425/Text_Simplification).
 2. **Enter Text**: In the "Enter complex text here..." field, input the text you want to simplify.
 3. **Set Maximum Length**: Use the slider to select the maximum length for the simplified text.
 4. **View Output**: The simplified text will appear in the output area below.
 
-### Locally (Optional)
-
-If you prefer to run the application locally:
+### From PyCharm
 
 1. **Clone the Repository**:
    ```bash
